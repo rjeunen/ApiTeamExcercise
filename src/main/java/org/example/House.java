@@ -1,6 +1,6 @@
 package org.example;
 
-public class Houses {
+public class House {
     String url;
     String name;
     String region;
@@ -13,4 +13,12 @@ public class Houses {
     String founder;
     String diedOut;
 
+    public House(String name, String region){
+        this.name = name;
+        this.region = region;
+    }
+
+    public String getName(){
+        return name;
+    }
 }

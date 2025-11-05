@@ -2,7 +2,7 @@ package org.example;
 
 import java.sql.Date;
 
-public class Books {
+public class Book {
     String url;
     String name;
     String isbn;
